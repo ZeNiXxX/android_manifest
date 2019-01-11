@@ -9,15 +9,19 @@
            fetch="https://github.com/Havoc-Devices"
            revision="pie" />
 
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com/SKULSHADY"
+           revision="pie" />
+
   <!-- General -->
-  <project path="art" name="android_art" remote="havoc" />
+  <project path="art" name="android_art" remote="gitlab" />
   <project path="bionic" name="android_bionic" remote="havoc" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
   <!-- Build -->
   <project path="build/blueprint" name="android_build_blueprint" remote="havoc" />
   <project path="build/kati" name="android_build_kati" remote="havoc" />
-  <project path="build/make" name="android_build" remote="havoc" >
+  <project path="build/make" name="android_build" remote="gitlab" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,7 +30,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="havoc" >
+  <project path="build/soong" name="android_build_soong" remote="gitlab" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -45,16 +49,16 @@
   <project path="external/perfetto" name="android_external_perfetto" remote="havoc" />
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="havoc" />
   <project path="external/selinux" name="android_external_selinux" remote="havoc" />
-  <project path="external/skia" name="android_external_skia" remote="havoc" />
+  <project path="external/skia" name="android_external_skia" remote="gitlab" />
   <project path="external/skqp" name="android_external_skqp" remote="havoc" />
   <project path="external/sqlite" name="android_external_sqlite" remote="havoc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
   <project path="external/turbine" name="android_external_turbine" remote="havoc" />
-  <project path="external/vixl" name="android_external_vixl" remote="havoc" />
+  <project path="external/vixl" name="android_external_vixl" remote="gitlab" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="gitlab" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/havoc" name="android_frameworks_havoc" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
@@ -84,11 +88,11 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="havoc" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="havoc" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="havoc" />
-  <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="havoc" />
+  <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="gitlab" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="havoc" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="havoc" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="havoc" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="gitlab" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="havoc" />
@@ -120,7 +124,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
-  <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
+  <project path="vendor/havoc" name="android_vendor_havoc" remote="gitlab" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="havoc" />
 
 </manifest>

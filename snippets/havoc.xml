@@ -13,6 +13,9 @@
            fetch="ssh://git@gitlab.com/ZeNiXxX"
            revision="dipper" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
   <project path="bionic" name="android_bionic" remote="havoc" />
@@ -144,7 +147,7 @@
   <!-- Dipper -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx" revision="pie" />
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="pie" />
-  <project path="kernel/xiaomi/sdm845" name="Patrontrox/main_kernel_xiaomi_sdm845" remote="github" revision="havoc"/>
+  <project path="kernel/xiaomi/sdm845" name="Patrontrox/eXtreme-Non-OC" remote="gitlab" revision="simple-pie"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="pie"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />

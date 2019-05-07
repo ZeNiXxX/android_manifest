@@ -154,7 +154,6 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -188,8 +187,6 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="platform/packages/apps/Nfc" />
-
 
   <!-- Prebuilt repos -->
   <remove-project name="platform/prebuilts/build-tools" />

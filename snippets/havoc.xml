@@ -157,7 +157,4 @@
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="pie_vendor"/>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
   <project path="XiaomiDump/9.3.14" name="xiaomi_dump_dipper" remote="zenixxx" revision="master" />
-
- <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="syberia" />
-   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="syberia" />
 </manifest>

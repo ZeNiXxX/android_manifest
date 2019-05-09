@@ -27,6 +27,10 @@
        <remote  name="shady"
            fetch="ssh://git@github.com/SKULSHADY"
            revision="pie" />
+  
+  <remote  name="havoc-wip"
+           fetch="ssh://git@github.com/Havoc-OS"
+           revision="pie-wip" />
 
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
@@ -51,7 +55,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/havoc/sepolicy" name="android_device_havoc_sepolicy" remote="havoc" />
+  <project path="device/havoc/sepolicy" name="android_device_havoc_sepolicy" remote="havoc-wip" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="havoc" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="havoc" />
 
@@ -156,7 +160,7 @@
 
   <!-- Dipper -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx" revision="pie" />
-  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="vendor" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="pie" />
   <project path="kernel/xiaomi/sdm845" name="Patrontrox/Xtreme-Kernel" remote="gitlab" revision="dev"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="pie"/>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />

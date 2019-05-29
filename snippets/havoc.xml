@@ -163,7 +163,7 @@
   <!-- Dipper -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx" revision="vendor" />
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="vendor" />
-  <project path="kernel/xiaomi/sdm845" name="revolution-kernel/kernel_sdm845" remote="gitlab" revision="dev"/>
+  <project path="kernel/xiaomi/sdm845" name="revolution-kernel/kernel_sdm845" remote="gitlab" revision="stable"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="vendor"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />

@@ -122,7 +122,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
   <project path="packages/apps/Settings" name="packages_settings_apps" remote="zenixxx" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
-  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc" />
+  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc-wip" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="havoc" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="havoc" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="havoc" />

@@ -167,6 +167,7 @@
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx_github" revision="vendor"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />
 
   <project path="XiaomiDump/9.3.14" name="xiaomi_dump_dipper" remote="zenixxx" revision="master" />
 

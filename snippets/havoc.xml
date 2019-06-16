@@ -14,8 +14,7 @@
            revision="dipper" />
 
   <remote  name="zenixxx_github"
-           fetch="ssh://git@github.com/ZeNiXxX"
-           revision="pie" />
+           fetch="ssh://git@github.com/ZeNiXxX" />
 
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com/" />
@@ -80,7 +79,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="zenixxx" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="zenixxx_github" revision="dipper"/>
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/havoc" name="android_frameworks_havoc" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
@@ -115,12 +114,13 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="havoc" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="havoc" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="havoc" />
-  <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="zenixxx" />
+  <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings"  remote="zenixxx_github" revision="dipper" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="havoc" />
   <project path="packages/apps/OmniLib" name="omnirom/android_packages_apps_OmniLib" remote="github" revision="android-9.0" />
-  <project path="packages/apps/OmniStyle" name="ZeNiXxX/packages_apps_OmniStyle" remote="github" revision="pie" />  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="havoc" />
+  <project path="packages/apps/OmniStyle" name="ZeNiXxX/packages_apps_OmniStyle" remote="github" revision="pie" />  
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="havoc" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
-  <project path="packages/apps/Settings" name="packages_settings_apps" remote="zenixxx" />
+  <project path="packages/apps/Settings" name="packages_settings_apps"  remote="zenixxx_github" revision="dipper" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc-wip" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="havoc" />
@@ -154,17 +154,17 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
-  <project path="vendor/havoc" name="android_vendor_havoc" remote="zenixxx" />
+  <project path="vendor/havoc" name="android_vendor_havoc" remote="zenixxx_github" revision="dipper" />
   <project path="vendor/interfaces" name="android_vendor_interfaces" remote="havoc" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="havoc" />
   <project path="vendor/support" name="android_vendor_support" remote="havoc" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="zenixxx_github" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="zenixxx_github" revision="pie" />
 
   <!-- Dipper -->
-  <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx" revision="vendor" />
-  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="vendor" />
+  <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx_github" revision="vendor" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx_github" revision="vendor" />
   <project path="kernel/xiaomi/sdm845" name="revolution-kernel/kernel_sdm845-V2" remote="gitlab" revision="f2fs"/>
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="vendor"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx_github" revision="vendor"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 

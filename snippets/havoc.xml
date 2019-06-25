@@ -13,6 +13,9 @@
            fetch="ssh://git@gitlab.com/ZeNiXxX"
            revision="dipper" />
 
+  <remote  name="zenixxx_open"
+           fetch="https://gitlab.com/ZeNiXxX" />
+
   <remote  name="zenixxx_github"
            fetch="ssh://git@github.com/ZeNiXxX" />
 
@@ -170,6 +173,6 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />
 
-  <project path="XiaomiDump/9.3.14" name="xiaomi_dump_dipper" remote="zenixxx" revision="master" />
+  <project path="XiaomiDump/9.3.14" name="xiaomi_dump_dipper" remote="zenixxx_open" revision="master" />
 
 </manifest>

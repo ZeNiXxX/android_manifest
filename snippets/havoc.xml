@@ -165,7 +165,7 @@
   <!-- Dipper -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="zenixxx_github" revision="vendor" />
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="vendor" />
-  <project path="kernel/xiaomi/sdm845" name="revolution-kernel/kernel_sdm845-V2" remote="gitlab" revision="f2fs"/>
+  <project path="kernel/xiaomi/sdm845" name="khusika/canting_kernel_xiaomi_sdm845" remote="github" revision="canting-4.9"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="vendor"/>
   <project path="hardware/qcom/display-caf/sdm845" name="ethan-halsall/temp-display-hal" remote="github" revision="p9x-caf" />
 

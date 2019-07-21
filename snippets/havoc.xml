@@ -167,7 +167,6 @@
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="zenixxx" revision="vendor" />
   <project path="kernel/xiaomi/sdm845" name="Patrontrox/Revolution_V4" remote="gitlab" revision="reloaded-dev"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_private" remote="zenixxx" revision="vendor"/>
-  <project path="hardware/qcom/display-caf/sdm845" name="ethan-halsall/temp-display-hal" remote="github" revision="p9x-caf" />
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />

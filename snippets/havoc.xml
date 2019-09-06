@@ -152,7 +152,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="havoc" />
-  <project path="system/core" name="android_system_core" remote="havoc" revision="dipper"/>
+  <project path="system/core" name="android_system_core_old" remote="havoc" revision="dipper"/>
   <project path="system/extras" name="android_system_extras" remote="havoc" />
   <project path="system/keymaster" name="android_system_keymaster" remote="havoc" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="havoc" />

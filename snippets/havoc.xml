@@ -86,7 +86,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="havoc" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" revision="dipper" />
+  <project path="frameworks/av" name="ZeNiXxX/android_frameworks_av" remote="github" revision="dipper" />
   <project path="frameworks/base" name="android_frameworks_base" remote="zenixxx_github" revision="dipper"/>
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/havoc" name="android_frameworks_havoc" remote="havoc" />

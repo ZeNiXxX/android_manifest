@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab_public"
+           fetch="https://gitlab.com/ZeNiXxX" />
+
+  <remote  name="github_private"
+           fetch="ssh://git@github.com/ZeNiXxX"
+           revision="ten"/>
+
+  <remote  name="patron"
+           fetch="ssh://git@github.com/Patrontrox" />
+
+  <!-- Dipper -->
+  <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="github_private" revision="ten" />
+  <project path="device/xiaomi/sdm845-common" name="ZeNiXxX/device_xiaomi_sdm845-common" remote="gitlab" revision="ten"/>
+  <project path="vendor/xiaomi" name="ZeNiXxX/proprietary_vendor_xiaomi" remote="gitlab" revision="ten"/>
+  <project path="device/xiaomi/firmware" name="ZeNiXxX/dipperFirmware" remote="gitlab" revision="ten" />
+  <project path="device/xiaomi/dipper-zen-kernel" name="ZeNiXxX/zen_xiaomi_sdm845_kernel" remote="github" revision="master" />
+  <project path="XiaomiDump/dipper" name="miui_stable_dump" remote="gitlab_public" revision="master" />
+  
+  <!--Kernel-->
+  <project path="kernel/xiaomi/sdm845" name="YumeMichi/kernel_xiaomi_sdm845" remote="github" revision="quartz"/>
+
+  <!--Framework-->
+  <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />
+
+  <!--Packages-->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github_private" />
+  <project path="packages/apps/ConfigCenter" name="havocsettings" remote="github_private" />
+  <project path="packages/apps/OmniStyle" name="ZeNiXxX/packages_apps_OmniStyle" remote="github" revision="ten" />
+  <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="havoc" />
+  <project path="packages/apps/CustomDoze" name="ZeNiXxX/android_packages_apps_CustomDoze" remote="github" revision="ten" />
+
+  <!--Vendor-->
+  <project path="vendor/havoc" name="android_vendor_havoc" remote="github_private" />
+  <project path="vendor/support" name="ZeNiXxX/android_vendor_support" remote="github" revision="test" />
+
+  <!--Clang-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.0.0" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-9.0.0" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />
+
+  <!-- <project path="hardware/qcom-caf/sdm845/audio" name="ZeniXxX/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" /> -->
+
+</manifest>

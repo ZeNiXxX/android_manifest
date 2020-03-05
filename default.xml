@@ -790,5 +790,6 @@
   <!-- Havoc additions -->
   <include name="snippets/havoc.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/zenixxx.xml" />
 
 </manifest>

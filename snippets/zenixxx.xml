@@ -21,6 +21,7 @@
   
   <!--Kernel-->
   <project path="kernel/xiaomi/sdm845" name="YumeMichi/kernel_xiaomi_sdm845" remote="github" revision="quartz"/>
+  <!-- <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/mipa_kernel_xiaomi_sdm845" remote="github" revision="ten"/> -->
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />

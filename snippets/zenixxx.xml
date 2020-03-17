@@ -20,8 +20,8 @@
   <project path="device/xiaomi/zen" name="ZeNiXxX/zen_xiaomi_sdm845_kernel" remote="github" revision="master"/>
 
   <!--Kernel-->
-  <!-- <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/kernel_xiaomi_sdm845" remote="github" revision="ten"/> -->
-  <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/mipa_kernel_xiaomi_sdm845" remote="github" revision="ten"/>
+  <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/kernel_xiaomi_sdm845" remote="github" revision="ten"/>
+  <!-- <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/mipa_kernel_xiaomi_sdm845" remote="github" revision="ten"/> -->
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />

@@ -25,6 +25,7 @@
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />
+  <project path="frameworks/av" name="ZeNiXxX/android_frameworks_av" remote="github" revision="ten"/>
 
   <!--Packages-->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github_private" />

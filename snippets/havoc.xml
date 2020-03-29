@@ -107,5 +107,6 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="havoc-gapps" clone-depth="1" />
+  <project path="vendor/google/customization" name="android_vendor_google_customization" remote="havoc" />
 
 </manifest>

@@ -20,8 +20,7 @@
   <project path="device/xiaomi/zen" name="ZeNiXxX/zen_xiaomi_sdm845_kernel" remote="github" revision="master"/>
 
   <!--Kernel-->
-  <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/kernel_xiaomi_sdm845" remote="github" revision="ten"/>
-  <!-- <project path="kernel/xiaomi/sdm845" name="ZeNiXxX/mipa_kernel_xiaomi_sdm845" remote="github" revision="ten"/> -->
+  <project path="kernel/xiaomi/sdm845" name="zen_kernel_xiaomi_sdm845" remote="github_private"/>
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />
@@ -43,6 +42,7 @@
 <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />
 <project path="prebuilts/clang/host/linux-x86/clang-11" name="Jprimero15/lolz_clang" remote="github" revision="clang-11.0.0" />
+<project path="prebuilts/clang/host/linux-x86/proton-clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
 <project path="external/airbnb-lottie" name="Project-Xtended/external_airbnb-lottie" remote="github" revision="xq" />
   <!-- <project path="hardware/qcom-caf/sdm845/audio" name="ZeniXxX/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" /> -->
 

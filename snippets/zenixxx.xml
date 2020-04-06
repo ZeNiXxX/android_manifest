@@ -11,6 +11,11 @@
   <remote  name="patron"
            fetch="ssh://git@github.com/Patrontrox" />
 
+  <project path="build/soong" name="ZeNiXxX/android_build_soong" remote="github" revision="ten">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- Dipper -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper_private" remote="github_private" revision="ten" />
   <project path="device/xiaomi/sdm845-common" name="ZeNiXxX/device_xiaomi_sdm845-common" remote="gitlab" revision="ten"/>

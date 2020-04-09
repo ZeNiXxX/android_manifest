@@ -35,7 +35,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github_private" />
   <project path="packages/apps/ConfigCenter" name="havocsettings" remote="github_private" />
   <project path="packages/apps/OmniStyle" name="ZeNiXxX/packages_apps_OmniStyle" remote="github" revision="ten" />
-  <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="havoc" />
   <project path="packages/apps/CustomDoze" name="ZeNiXxX/android_packages_apps_CustomDoze" remote="github" revision="ten" />
   <project path="packages/apps/XiaomiParts" name="packages_apps_PocoParts" remote="github_private" revision="ten" />
 

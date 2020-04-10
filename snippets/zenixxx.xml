@@ -47,7 +47,7 @@
 <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="kdrag0n/aarch64-elf-gcc" remote="github" revision="9.x" />
 <project path="prebuilts/clang/host/linux-x86/clang-11" name="Jprimero15/lolz_clang" remote="github" revision="clang-11.0.0" />
 <project path="prebuilts/clang/host/linux-x86/proton-clang-11" name="kdrag0n/proton-clang" remote="github" revision="master" />
-<project path="external/airbnb-lottie" name="Project-Xtended/external_airbnb-lottie" remote="github" revision="xq" />
+<project path="external/airbnb-lottie" name="ZeNiXxX/external_airbnb-lottie" remote="github" revision="ten" />
   <!-- <project path="hardware/qcom-caf/sdm845/audio" name="ZeniXxX/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" /> -->
 
 </manifest>

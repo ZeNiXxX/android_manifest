@@ -25,7 +25,7 @@
   <project path="device/xiaomi/zen" name="ZeNiXxX/zen_xiaomi_sdm845_kernel" remote="github" revision="master"/>
 
   <!--Kernel-->
-  <project path="kernel/xiaomi/sdm845" name="zen_kernel_xiaomi_sdm845" remote="github_private"/>
+  <project path="kernel/xiaomi/sdm845" name="zen_kernel_xiaomi_sdm845" remote="github_private" revision="pixel"/>
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />
@@ -37,6 +37,8 @@
   <project path="packages/apps/OmniStyle" name="ZeNiXxX/packages_apps_OmniStyle" remote="github" revision="ten" />
   <project path="packages/apps/CustomDoze" name="ZeNiXxX/android_packages_apps_CustomDoze" remote="github" revision="ten" />
   <project path="packages/apps/XiaomiParts" name="packages_apps_PocoParts" remote="github_private" revision="ten" />
+
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="ten" />
 
   <!--Vendor-->
   <project path="vendor/havoc" name="android_vendor_havoc" remote="github_private" />

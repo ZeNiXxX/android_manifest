@@ -25,7 +25,7 @@
   <project path="device/xiaomi/zen" name="ZeNiXxX/zen_xiaomi_sdm845_kernel" remote="github" revision="master"/>
 
   <!--Kernel-->
-  <project path="kernel/xiaomi/sdm845" name="zen_kernel_xiaomi_sdm845" remote="github_private" revision="pixel"/>
+  <project path="kernel/xiaomi/sdm845" name="zen_kernel_xiaomi_sdm845" remote="github_private" revision="twisted"/>
 
   <!--Framework-->
   <project path="frameworks/base" name="android_frameworks_base" remote="github_private" />
